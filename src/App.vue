@@ -32,7 +32,7 @@ button:active {
 }
 input {
   border: 1px solid #42b983;
-  padding: 5px 15px;
+  padding: 10px 15px;
   font-size: 16px;
   outline: none;
   color: #666;
