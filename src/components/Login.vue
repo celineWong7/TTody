@@ -23,7 +23,7 @@ export default {
   },
   methods: {
     loginFun() {
-      getData(this,this.checkUser)
+      getData(this, this.checkUser, 'http://localhost:3000/accounts')
     },
     checkUser(users) {
       // users 对象数组

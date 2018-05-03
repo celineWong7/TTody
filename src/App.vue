@@ -38,4 +38,10 @@ input {
   color: #666;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 600px){
+  #app {
+    margin-top: 8px;
+  }
+}
 </style>
