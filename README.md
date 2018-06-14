@@ -14,7 +14,12 @@
 node -v
 v8.10.0
 ```
-
+你还需要安装下json-server：
+```
+# 使用npm全局安装json-server
+npm install -g json-server
+```
+如果想对json-server进一步了解，可以移步的我的博文[《上手玩一下 json-server（一）了解篇》](https://www.jianshu.com/p/bdbbd3314cf3)、[《上手玩一下json-server（二）操作数据篇——POST/PATCH/DELETE》](https://www.jianshu.com/p/9847dc1f5ca7)
 #### 2 启动服务
 （1） 进入json-server文件夹，启动json-server服务：
 ```
@@ -23,7 +28,7 @@ json-server --watch db.json
 
 （2） 在项目顶层文件夹路径（一般就是TTody文件夹下），启动服务：
 ``` bash
-# serve with hot reload at localhost:8080
+# server with hot reload at localhost:8080
 npm run dev
 ```
 
